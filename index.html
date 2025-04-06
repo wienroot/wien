@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Wiein & Crasher Media</title>
+  <style>
+    body {
+      background-color: black;
+      color: red;
+      text-align: center;
+      font-family: 'Impact', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .blinking-text {
+      font-size: 50px;
+      animation: blink 1s infinite;
+      margin-top: 40px;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+
+    .glow-text {
+      font-size: 30px;
+      margin-top: 20px;
+      animation: glow 2s infinite;
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 0 0 10px red; }
+      50% { text-shadow: 0 0 30px red; }
+      100% { text-shadow: 0 0 10px red; }
+    }
+
+    iframe {
+      margin-top: 30px;
+      width: 80%;
+      height: 450px;
+      border: 3px solid red;
+      border-radius: 10px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin: 40px 0;
+    }
+
+    .images img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid red;
+    }
+
+    .flag {
+      margin-bottom: 30px;
+    }
+
+    .flag img {
+      width: 300px; /* Daha büyük Türk Bayrağı */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="blinking-text">EZİCİ GÜÇ TÜRKLÜĞÜNDÜR</div>
+  <div class="glow-text">HACKED BY WİEIN MEDİA VE CRASHER MEDİA</div>
+
+  <!-- Streamable video iframe olarak eklendi -->
+  <iframe src="https://streamable.com/e/s7mw5b" frameborder="0" allowfullscreen></iframe>
+
+  <!-- İki yuvarlak görsel -->
+  <div class="images">
+    <img src="https://r.resimlink.com/6np2LJ7uHD.jpeg" alt="Görsel 1">
+    <img src="https://r.resimlink.com/UmZzHqs46_L.jpeg" alt="Görsel 2">
+  </div>
+
+  <!-- Türk bayrağı -->
+  <div class="flag">
+    <img src="https://r.resimlink.com/taAB5HuR9L.jpg" alt="Türk Bayrağı">
+  </div>
+
+</body>
+</html>
